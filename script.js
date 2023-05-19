@@ -65,7 +65,6 @@ function catchInsect() {
   this.classList.add("caught");
   setTimeout(() => this.remove(), 2000);
   addInsects();
-  console.log(123);
 }
 
 function addInsects() {
